@@ -43,3 +43,11 @@ $ npm run test
    
   2. [State that large molecules are synthesised from smaller basic units ](https://johnvict-pencil.herokuapp.com/search?q=State%20that%20large%20molecules%20are%20synthesised%20from%20smaller%20basic%20units) (https://johnvict-pencil.herokuapp.com/search?q=State%20that%20large%20molecules%20are%20synthesised%20from%20smaller%20basic%20units)
 
+
+
+
+#
+## POSSIBLE IMPROVEMENTS
+ - Use of docker
+ - More modularizing
+ - Setup deployment pipeline, and lots more

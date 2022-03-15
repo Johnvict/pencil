@@ -72,14 +72,14 @@ const search = async (req, res) => {
     ]);
 
     return res.status(200).json({
-      code: 0,
+      code: "00",
       message: 'Success',
       data: aggregationResult[0]?.questions || [],
     });
   } catch (error) {
     console.log({ error: error.message });
     return res.status(500).json({
-      code: 1,
+      code: "01",
       message: 'failed',
       description: 'Something went wrong, please try again',
     });

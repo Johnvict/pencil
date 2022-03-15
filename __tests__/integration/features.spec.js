@@ -33,8 +33,8 @@ describe('Getting a list of Questions by a search query of topic', () => {
     expect(typeof response.body).toBe('object');
   });
 
-  it('Response Body Should have a field code as zero, ', async () => {
-    expect(response.body.code).toBe(0);
+  it('Response Body Should have a field code as double zero, ', async () => {
+    expect(response.body.code).toBe("00");
   });
 
 

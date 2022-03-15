@@ -5,7 +5,7 @@ const { databaseCtrl, questionCtrl } = require('./controllers');
  */
 router.get('/', (req, res) =>
   res.status(200).json({
-    code: 0,
+    code: "00",
     msg: "App is running. Send a post request to '/search'",
   })
 );
@@ -28,7 +28,7 @@ router.get('/search', questionCtrl.search);
  */
 router.use('*', (req, res, next) =>
   res.status(404).json({
-    code: 4,
+    code: "04",
     message: 'failed',
     description: 'No such url found on this server',
   })
